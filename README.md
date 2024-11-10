@@ -12,8 +12,6 @@ and the impact of track features like energy and danceability on listener prefer
 
 Key Insights:
 
-Streaming Highlights:
-
 Total Streams: 489 billion across 952 tracks.
 
 Average Streams per Track: 514 million
