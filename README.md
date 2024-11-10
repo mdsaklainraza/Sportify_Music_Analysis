@@ -10,6 +10,17 @@ Analyze Spotify streaming data to reveal music consumption trends and identify k
 Using Power BI, this project showcases the story behind billions of streams, favorite tracks,
 and the impact of track features like energy and danceability on listener preferences.
 
+DAX Formula:
+
+Calander = ADDCOLUMNS(CALENDAR(MIN('Spotify Dataset'[Date]),MAX('Spotify Dataset'[Date])),
+"Year",YEAR([Date]),
+"Quarter",QUARTER([Date]),
+"Quarter (Q)",FORMAT([Date],"\QQ"),
+"Month",MONTH([Date]),
+"MonthName",FORMAT([Date],"mmm"),
+"Day of Week",WEEKDAY([Date]),
+"DayName",FORMAT([Date],"dddd"))
+
 Key Insights:
 
 Total Streams: 489 billion across 952 tracks.
